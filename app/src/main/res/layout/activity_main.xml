@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/prime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prime"/>
+
+    <TextView
+        android:id="@+id/java_prime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        android:layout_below="@id/prime"/>
+
+    <TextView
+        android:id="@+id/c_prime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c"
+        android:layout_below="@id/java_prime"/>
+
+    <EditText
+        android:id="@+id/search_prime"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/c_prime"/>
+
+    <Button
+        android:id="@+id/start_prime"
+        android:background="@drawable/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c_prime"
+        android:textColor="@android:color/white"
+        android:layout_toEndOf="@+id/search_prime"
+        android:text="@string/calc" />
+
+    <TextView
+        android:id="@+id/quick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quick"
+        android:layout_below="@id/search_prime"/>
+
+    <TextView
+        android:id="@+id/java_quick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        android:layout_below="@id/quick"/>
+
+    <TextView
+        android:id="@+id/c_quick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c"
+        android:layout_below="@id/java_quick"/>
+
+    <EditText
+        android:id="@+id/quick_sort"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/c_quick"/>
+
+    <Button
+        android:id="@+id/start_quick"
+        android:background="@drawable/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c_quick"
+        android:layout_toEndOf="@+id/quick_sort"
+        android:textColor="@android:color/white"
+        android:text="@string/calc" />
+
+</RelativeLayout>

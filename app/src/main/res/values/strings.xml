@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CAlgorithms</string>
+    <string name="prime">Cálculo de primos</string>
+    <string name="java">Con Java:</string>
+    <string name="c">Con C:</string>
+    <string name="calc">Comienza</string>
+    <string name="quick">QuickSort </string>
+</resources>
